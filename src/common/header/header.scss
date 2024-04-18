@@ -1,0 +1,106 @@
+.container-header {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    margin: 50px 0 0 0;
+
+    header {
+        max-width: 950px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 30px;
+        border-radius: 51px;
+        border: 1px solid rgb(221, 221, 221, 0.3);
+        padding: 15.2px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width:1024px) {
+            margin: 0 20px;
+            padding: 14.4px 26px 16px 20px;
+        }
+
+        @media (max-width:540px) {
+            padding: 10px 10px 10px 10px;
+        }
+
+        .logo {
+            width: 62px;
+            height: 38px;
+
+            img {
+                width: auto;
+                height: 100%;
+            }
+
+            @media (max-width:280px) {
+                width: 50px;
+                height: 28px;
+            }
+        }
+
+        .headert-all-links-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+
+            a {
+                cursor: pointer;
+                text-decoration: none;
+                color: #FFFFFF;
+                font-family: "Nunito Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 21.82px;
+                text-align: left;
+
+                @media (max-width:540px) {
+                    font-size: 10px;
+                }
+
+                @media (max-width:280px) {
+                    display: none;
+                }
+
+                @media (max-width:412px) {
+                    display: none;
+                }
+
+                @media (max-width:430px) {
+                    display: none;
+                }
+
+                @media (max-width:414.4px) {
+                    display: none;
+                }
+
+                @media (max-width:430.4px) {
+                    display: none;
+                }
+            }
+        }
+
+        .lock-div-main {
+            background: linear-gradient(134.32deg, #A16CF4 21.02%, #FF7DA7 50.53%, #FFAB70 81.85%);
+            border: none;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 18px;
+                height: 18px;
+            }
+
+            @media (max-width:280px) {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
