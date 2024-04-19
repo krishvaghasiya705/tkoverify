@@ -1,8 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import DefaultLayout from "./defaultLayout";
 import Home from "../module/home";
-import Product from "../module/product";
+import Product from "../module/age";
 import Errorpage from "../errorpage";
+import Authenticate from "../module/authenticate";
+import Age from "../module/age";
 
 const router = createBrowserRouter([
     {
@@ -14,14 +16,22 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "/product",
+                path: "/age",
+                element: <Age />
+            },
+            {
+                path: "/Authenticate",
+                element: <Authenticate />
+            },
+            {
+                path: "/Product",
                 element: <Product />
             }
         ]
     },
     {
         path: "*",
-        element: <Errorpage/>
+        element: <Errorpage />
     }
 ])
 

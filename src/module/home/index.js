@@ -35,7 +35,7 @@ export default function Home() {
         <div className='ellepse-black-height-box'>
           <div className="container-header-one">
             <div className="discover-line-main">
-              <h5>Discover, Authenticate, and Shop our <span>premium cannabis products</span></h5>
+              <h5>Discover, Authenticate, and Shop our<span>premium cannabis products</span></h5>
             </div>
           </div>
 

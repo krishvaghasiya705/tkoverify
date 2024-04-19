@@ -9,18 +9,22 @@ export default function Header() {
         <div>
             <div className="container-header">
                 <header>
-                    <div className="logo">
-                        <img src={logo} alt="logo" />
-                    </div>
+                    <a href="/Home">
+                        <div className="logo">
+                            <img src={logo} alt="logo" />
+                        </div>
+                    </a>
                     <div className="headert-all-links-main">
-                        <a href="Authenticate">Authenticate</a>
-                        <Link to={"/product"}>Products</Link>
+                        <Link to={"/Authenticate"}>Authenticate</Link>
+                        <Link to={"/Product"}>Products</Link>
                         <a href="Lab Results">Lab Results</a>
                         <a href="Contact Us">Contact Us</a>
                     </div>
-                    <div className="lock-div-main">
-                        <img src={lock} alt="lock" />
-                    </div>
+                    <Link to={"/Age"}>
+                        <div className="lock-div-main">
+                            <img src={lock} alt="lock" />
+                        </div>
+                    </Link>
                 </header>
             </div>
         </div>
