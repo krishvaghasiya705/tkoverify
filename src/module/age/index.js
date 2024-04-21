@@ -80,14 +80,14 @@ export default function Age() {
             </div>
             <div className="confirm-button-div">
               <div className="button-one">
-                <a href="home">
+                <Link to={"/"}>
                   <button type='submit'>Yes</button>
-                </a>
+                </Link>
               </div>
               <div className="button-two">
-                <a href="home">
+                <Link to={"*"}>
                   <button type='submit'>No</button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ import logofooter from "../../assets/image/logofooter.png";
 import copyright from "../../assets/icon/Vector.png";
 import instagram from "../../assets/icon/instagram.png";
 import telegram from "../../assets/icon/telegram.png";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
@@ -15,10 +16,11 @@ export default function Footer() {
                     </div>
                     <div className="all-link-button-main">
                         <div className="all-link-footer-main">
-                            <a href="AUTHENTICATE">AUTHENTICATE</a>
-                            <a href="PRODUCTS">PRODUCTS</a>
-                            <a href="LAB RESULTS">LAB RESULTS</a>
-                            <a href="CONTACT">CONTACT</a>
+                            <Link to={"/Authenticate"}>Authenticate</Link>
+                            <Link to={"/Product"}>Products</Link>
+                            <Link to={"/Labresult"}>Lab Results</Link>
+                            <Link to={"/Contactus"}>Contact</Link>
+                            <Link to={"/Order"}>My Order</Link>
                         </div>
                         <div className="input-footer-main">
                             <input type="text" placeholder='Enter Email' />

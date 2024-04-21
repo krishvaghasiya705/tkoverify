@@ -9,16 +9,16 @@ export default function Header() {
         <div>
             <div className="container-header">
                 <header>
-                    <a href="/Home">
+                    <Link to={"/"}>
                         <div className="logo">
                             <img src={logo} alt="logo" />
                         </div>
-                    </a>
+                    </Link>
                     <div className="headert-all-links-main">
                         <Link to={"/Authenticate"}>Authenticate</Link>
                         <Link to={"/Product"}>Products</Link>
-                        <a href="Lab Results">Lab Results</a>
-                        <a href="Contact Us">Contact Us</a>
+                        <Link to={"/Labresult"}>Lab Results</Link>
+                        <Link to={"/Contactus"}>Contact Us</Link>
                     </div>
                     <Link to={"/Age"}>
                         <div className="lock-div-main">

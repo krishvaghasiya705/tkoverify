@@ -10,7 +10,6 @@ import ring from "../../assets/image/Ellipse673.png";
 import logo from "../../assets/image/image1.png";
 import lock from "../../assets/image/ic_round-lock.png";
 import crose from "../../assets/image/crose.png";
-import sorry from "../../assets/image/Group 239205.png";
 import { Link } from 'react-router-dom';
 
 export default function Authenticate() {
@@ -74,11 +73,11 @@ export default function Authenticate() {
                 </div>
                 <div className="error-bakc-blure">
                     <div className="error-back-box">
-                        <a href="crose">
+                        <Link to={"/"}>
                             <div className="crose-div">
                                 <img src={crose} alt="crose" />
                             </div>
-                        </a>
+                        </Link>
                         <div className="verification-title">
                             <h1>Verification <span>Code</span></h1>
                         </div>

@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Playfair Display", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.lab-result-page-back-ground-main {
+    background-color: #000;
+    background-image: url(../../assets/labimage/Group1.png);
+    background-repeat: no-repeat;
+    position: relative;
+
+    .shadow-one {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        img {
+            width: 445px;
+            height: 412px;
+
+            @media (max-width:280px) {
+                width: 100px;
+                height: 100px;
+            }
+
+            @media (max-width: 412px) {
+                width: 100px;
+                height: 100px;
+            }
+
+            @media (max-width: 430.4px) {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .shadow-two {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        img {
+            width: auto;
+            height: auto;
+
+            @media (max-width:280px) {
+                width: 100px;
+                height: 100px;
+            }
+
+            @media (max-width: 412px) {
+                width: 100px;
+                height: 100px;
+            }
+
+            @media (max-width: 430.4px) {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+
+    .shadow-three {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        img {
+            width: 445px;
+            height: 412px;
+
+            @media (max-width:540px) {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    }
+
+
+    .lab-container {
+        max-width: calc(1440px - 40px);
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .lab-result-title-box-main {
+            padding: 220px 0 100px 0;
+            display: flex;
+            justify-content: center;
+
+            .lab-result-title-main {
+                text-align: center;
+
+                h1 {
+                    font-family: "Nunito Sans", sans-serif;
+                    font-size: 46px;
+                    font-weight: 700;
+                    color: #FFFFFF;
+
+                    span {
+                        background: linear-gradient(134.32deg, #A16CF4 21.02%, #FF7DA7 50.53%, #FFAB70 81.85%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-family: "Nunito Sans", sans-serif;
+                    }
+                }
+
+                p {
+                    color: #DDDDDD;
+                    font-family: "Nunito Sans", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin: 10px 0 0 0;
+                    max-width: 752px;
+                }
+            }
+        }
+    }
+
+
+    .lab-container {
+        max-width: calc(1197px - 40px);
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .lab-result-main-part-box-main-flex-main {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 21px;
+            padding: 0 0 266px 0;
+
+            @media (max-width:1024px) {
+                flex-wrap: nowrap;
+            }
+
+            @media (max-width:540px) {
+                flex-wrap: wrap;
+            }
+
+            .lab-result-main-part-box-main-flex-main-bx-one {
+                background: linear-gradient(179.91deg, rgba(255, 255, 255, 0.1) 0.09%, rgba(255, 255, 255, 0) 96.21%);
+                border-radius: 12px;
+                border: 1px solid #FFFFFF;
+                padding: 55px 50px 271px 56px;
+
+                @media (max-width:280px) {
+                    padding: 55px 43px 271px 43px;
+                }
+
+                .lab-result-button-one {
+                    margin: 0 0 40px 0;
+
+                    button {
+                        background: linear-gradient(rgba(161, 108, 244, 1), rgba(255, 125, 167, 1), rgba(255, 171, 112, 1));
+                        color: #FFFFFF;
+                        border: none;
+                        border-radius: 3px;
+                        font-family: "Nunito Sans", sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        height: 41.6px;
+                        width: 151.6px;
+                    }
+                }
+
+                .lab-result-button-two {
+                    margin: 0 0 40px 0;
+
+                    button {
+                        background: rgba(255, 255, 255, 0.1);
+                        color: #FFFFFF;
+                        border: none;
+                        border-radius: 3px;
+                        font-family: "Nunito Sans", sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        height: 41.6px;
+                        width: 151.6px;
+                    }
+                }
+
+                .lab-result-button-three {
+                    margin: 0;
+
+                    button {
+                        background: rgba(255, 255, 255, 0.1);
+                        color: #FFFFFF;
+                        border: none;
+                        border-radius: 3px;
+                        font-family: "Nunito Sans", sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        height: 41.6px;
+                        width: 151.6px;
+                    }
+                }
+            }
+
+            .lab-result-main-part-box-main-flex-main-bx-two {
+                background: linear-gradient(0.27deg, rgba(255, 255, 255, 0) 0.26%, rgba(255, 255, 255, 0.1) 99.78%);
+                border: 1px solid #FFFFFF;
+                border-radius: 16px;
+                padding: 30px 61px 283px 31px;
+
+                @media(max-width:1024px) {
+                    padding: 30px 61px 171px 31px;
+                }
+
+                @media(max-width:820px) {
+                    padding: 30px 61px 5px 31px;
+                }
+
+                .original-title-in-box-main {
+                    width: 100%;
+                    padding: 0 0 16px 0;
+                    border-bottom: 1px dashed #ffffff4d;
+
+                    h1 {
+                        color: #FFFFFF;
+                        font-family: "Nunito Sans", sans-serif;
+                        text-align: left;
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+
+                .prd-button {
+                    padding: 30px 0 0 0;
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    gap: 24px;
+
+                    .prd-button-one {
+
+                        button {
+                            padding: 6px 16px;
+                            background: linear-gradient(134.32deg, rgba(161, 108, 244, 0.5) 21.02%, rgba(255, 125, 167, 0.5) 50.53%, rgba(255, 171, 112, 0.5) 81.85%);
+                            border: none;
+                            border-radius: 38px;
+                            color: #FFFFFF;
+                            font-family: "Nunito Sans", sans-serif;
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                    }
+
+                    .prd-button-two {
+
+                        button {
+                            padding: 6px 16px;
+                            background: rgba(255, 255, 255, 0.12);
+                            border: none;
+                            border-radius: 38px;
+                            color: #FFFFFF;
+                            font-family: "Nunito Sans", sans-serif;
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import DefaultLayout from "./defaultLayout";
 import Home from "../module/home";
-import Product from "../module/age";
 import Errorpage from "../errorpage";
 import Authenticate from "../module/authenticate";
 import Age from "../module/age";
+import Product from "../module/product";
+import Labresult from "../module/labresult";
+import Contactus from "../module/contact";
+import Order from "../module/order";
+import Cart from "../module/cart";
 
 const router = createBrowserRouter([
     {
@@ -16,22 +20,39 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: "/age",
-                element: <Age />
-            },
-            {
-                path: "/Authenticate",
-                element: <Authenticate />
-            },
-            {
                 path: "/Product",
                 element: <Product />
+            },
+            {
+                path: "/Labresult",
+                element: <Labresult />
+            },
+            {
+                path: "/Contactus",
+                element: <Contactus />
             }
         ]
     },
+
     {
         path: "*",
         element: <Errorpage />
+    },
+    {
+        path: "/Authenticate",
+        element: <Authenticate />
+    },
+    {
+        path: "/age",
+        element: <Age />
+    },
+    {
+        path: "/Order",
+        element: <Order />
+    },
+    {
+        path: "/Cart",
+        element: <Cart />
     }
 ])
 

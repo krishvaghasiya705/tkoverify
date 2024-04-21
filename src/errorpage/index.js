@@ -12,7 +12,6 @@ import lock from "../assets/image/ic_round-lock.png";
 import crose from "../assets/image/crose.png";
 import sorry from "../assets/image/Group 239205.png";
 import { Link } from 'react-router-dom';
-
 export default function Errorpage() {
     return (
         <div>
@@ -74,11 +73,11 @@ export default function Errorpage() {
                 </div>
                 <div className="error-bakc-blure">
                     <div className="error-back-box">
-                        <a href="crose">
+                        <Link to={"/"}>
                             <div className="crose-div">
                                 <img src={crose} alt="crose" />
                             </div>
-                        </a>
+                        </Link>
                         <div className="sorrry-image">
                             <img src={sorry} alt="sorry" />
                         </div>
