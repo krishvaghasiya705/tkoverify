@@ -20,10 +20,10 @@ export default function Product() {
                 <div className="fram-one">
                     <div className="container-prd">
                         <div className="our-product-title-main-div">
-                            <h1 data-aos="fade-down-right">Our <span>Products</span></h1>
+                            <h1>Our <span>Products</span></h1>
                         </div>
                         <div className="our-product-peragraph-main-div">
-                            <p data-aos="fade-down-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
                     <div className="shaddow-one">
@@ -38,12 +38,12 @@ export default function Product() {
                         <div className="card-flex-main-div-one">
 
 
-                            <div className="card-main-one" data-aos="flip-left">
+                            <div className="card-main-one">
                                 <div className="card-one">
                                     <div className="title-image">
-                                        <img data-aos="flip-up" src={titleone} alt="titleone" />
+                                        <img src={titleone} alt="titleone" />
                                     </div>
-                                    <img data-aos="flip-up" src={prdone} alt="prdone" />
+                                    <img src={prdone} alt="prdone" />
                                 </div>
                                 <div className="triple-box-main">
                                     <div className="triple-line-main-div">
@@ -56,12 +56,12 @@ export default function Product() {
                                 </div>
                             </div>
 
-                            <div className="card-main-one" data-aos="flip-left">
+                            <div className="card-main-one">
                                 <div className="card-one">
                                     <div className="title-image">
-                                        <img data-aos="flip-up" src={Torpedo} alt="Torpedo" />
+                                        <img src={Torpedo} alt="Torpedo" />
                                     </div>
-                                    <img data-aos="flip-up" src={prdtwo} alt="prdtwo" />
+                                    <img src={prdtwo} alt="prdtwo" />
                                 </div>
                                 <div className="triple-box-main">
                                     <div className="triple-line-main-div">
@@ -80,12 +80,12 @@ export default function Product() {
                         <div className="card-flex-main-div">
 
 
-                            <div className="card-main-one" data-aos="flip-left">
+                            <div className="card-main-one">
                                 <div className="card-one">
                                     <div className="title-image">
-                                        <img data-aos="flip-up" src={MiniRockets} alt="MiniRockets" />
+                                        <img src={MiniRockets} alt="MiniRockets" />
                                     </div>
-                                    <img data-aos="flip-up" src={prdthree} alt="prdthree" />
+                                    <img src={prdthree} alt="prdthree" />
                                 </div>
                                 <div className="triple-box-main">
                                     <div className="triple-line-main-div">
@@ -98,12 +98,12 @@ export default function Product() {
                                 </div>
                             </div>
 
-                            <div className="card-main-one" data-aos="flip-left">
+                            <div className="card-main-one">
                                 <div className="card-one">
                                     <div className="title-image">
-                                        <img data-aos="flip-up" src={Cartridges} alt="Cartridges" />
+                                        <img src={Cartridges} alt="Cartridges" />
                                     </div>
-                                    <img data-aos="flip-up" src={prdfour} alt="prdfour" />
+                                    <img src={prdfour} alt="prdfour" />
                                 </div>
                                 <div className="triple-box-main">
                                     <div className="triple-line-main-div">

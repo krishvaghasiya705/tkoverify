@@ -18,7 +18,7 @@ export default function Order() {
 
 
                 <div className="container-header">
-                    <header data-aos="fade-up" className='header-cls-ord'>
+                    <header className='header-cls-ord'>
                         <Link to={"/"}>
                             <div className="logo">
                                 <img src={logo} alt="logo" />
@@ -51,22 +51,22 @@ export default function Order() {
                 <div className="myord-container">
                     <div className="myorder-title-main">
                         <div className="my-order-title-inner">
-                            <h1 data-aos="zoom-out-right">My <span>Orders</span></h1>
-                            <p data-aos="zoom-out-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <h1>My <span>Orders</span></h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
                 </div>
                 <div className="my-ord-two-cotainer">
-                    <div data-aos="fade-up" className="enter-code-div-main">
-                        <input data-aos="fade-right" type="text" placeholder='Enter Code' />
+                    <div className="enter-code-div-main">
+                        <input type="text" placeholder='Enter Code' />
                         <Link to={"/Contactus"}>
-                            <button data-aos="fade-left" type='submit'>Submit</button>
+                            <button type='submit'>Submit</button>
                         </Link>
                     </div>
                 </div>
                 <div className="ord-nmb-lst-container">
                     <div className="order-nmb-section-main">
-                        <div data-aos="fade-right" data-aos-duration="700" className="order-number-list-div-main">
+                        <div className="order-number-list-div-main">
                             <div className="ord-list-nmb-one">
                                 <div className="ord-line-inner-frst-box">
                                     <h1>Order Number</h1>
@@ -91,7 +91,7 @@ export default function Order() {
                             </div>
                         </div>
 
-                        <div data-aos="fade-left" data-aos-duration="700" className="order-number-list-div-main">
+                        <div className="order-number-list-div-main">
                             <div className="ord-list-nmb-one">
                                 <div className="ord-line-inner-frst-box">
                                     <h1>Order Number</h1>
@@ -116,7 +116,7 @@ export default function Order() {
                             </div>
                         </div>
 
-                        <div data-aos="fade-right" data-aos-duration="700" className="order-number-list-div-main">
+                        <div className="order-number-list-div-main">
                             <div className="ord-list-nmb-one">
                                 <div className="ord-line-inner-frst-box">
                                     <h1>Order Number</h1>
@@ -141,7 +141,7 @@ export default function Order() {
                             </div>
                         </div>
 
-                        <div data-aos="fade-left" data-aos-duration="700" className="order-number-list-div-main">
+                        <div className="order-number-list-div-main">
                             <div className="ord-list-nmb-one">
                                 <div className="ord-line-inner-frst-box">
                                     <h1>Order Number</h1>
@@ -166,7 +166,7 @@ export default function Order() {
                             </div>
                         </div>
 
-                        <div data-aos="fade-right" data-aos-duration="700" className="order-number-list-div-main-sc">
+                        <div className="order-number-list-div-main-sc">
                             <div className="ord-list-nmb-one">
                                 <div className="ord-line-inner-frst-box">
                                     <h1>Order Number</h1>
@@ -198,20 +198,20 @@ export default function Order() {
                 <footer>
                     <div className="footer-ord-container">
                         <div className="footer-logo">
-                            <img data-aos="flip-up" src={logofooter} alt="logofooter" />
+                            <img src={logofooter} alt="logofooter" />
                         </div>
                         <div className="all-link-button-main">
                             <div className="all-link-footer-main">
-                                <Link data-aos="flip-left" to={"/Authenticate"}>Authenticate</Link>
-                                <Link data-aos="flip-left" to={"/Product"}>Products</Link>
-                                <Link data-aos="flip-left" to={"/Labresult"}>Lab Results</Link>
-                                <Link data-aos="flip-left" to={"/Contactus"}>Contact</Link>
-                                <Link data-aos="flip-left" to={"/Order"}>My Order</Link>
+                                <Link to={"/Authenticate"}>Authenticate</Link>
+                                <Link to={"/Product"}>Products</Link>
+                                <Link to={"/Labresult"}>Lab Results</Link>
+                                <Link to={"/Contactus"}>Contact</Link>
+                                <Link to={"/Order"}>My Order</Link>
                             </div>
                             <div className="input-footer-main">
-                                <input data-aos="fade-up-right" type="text" placeholder='Enter Email' />
+                                <input type="text" placeholder='Enter Email' />
                                 <a href="subscribe">
-                                    <button data-aos="fade-up-left" type='submit'>Subscribe</button>
+                                    <button type='submit'>Subscribe</button>
                                 </a>
                             </div>
                         </div>

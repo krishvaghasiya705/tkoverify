@@ -71,19 +71,22 @@ export default function Age() {
           </div>
         </div>
         <div className="error-bakc-blure">
-          <div data-aos="fade-up" className="error-back-box">
+          <div className="error-back-box">
+            <div className="sorrry-image">
+              <Link to={"/"}></Link>
+            </div>
             <div className="sorry-title">
-              <h1 data-aos="fade-right">Are you 21 years old ?</h1>
+              <h1>Are you 21 years old ?</h1>
             </div>
             <div className="confirm-button-div">
               <div className="button-one">
                 <Link to={"/"}>
-                  <button data-aos="flip-left" type='submit'>Yes</button>
+                  <button type='submit'>Yes</button>
                 </Link>
               </div>
               <div className="button-two">
                 <Link to={"*"}>
-                  <button data-aos="flip-right" type='submit'>No</button>
+                  <button type='submit'>No</button>
                 </Link>
               </div>
             </div>

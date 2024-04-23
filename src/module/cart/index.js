@@ -23,7 +23,7 @@ export default function Cart() {
 
 
                 <div className="container-header">
-                    <header data-aos="fade-up">
+                    <header>
                         <Link to={"/"}>
                             <div className="logo">
                                 <img src={logo} alt="logo" />
@@ -56,8 +56,8 @@ export default function Cart() {
                 <div className="myord-container">
                     <div className="myorder-title-main">
                         <div className="my-order-title-inner">
-                            <h1 data-aos="fade-down-right">My <span>Cart</span></h1>
-                            <p data-aos="fade-down-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <h1>My <span>Cart</span></h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export default function Cart() {
                     <div className="card-item--box-main-margin">
 
 
-                        <div data-aos="fade-up" className="card-item--box-main">
+                        <div className="card-item--box-main">
                             <div className="cart-item-box-title-main">
                                 <div className="gerdiant-h1-div">
                                     <span>Cart Items</span>
@@ -115,12 +115,12 @@ export default function Cart() {
                             </div>
                         </div>
 
-                        <div data-aos="fade-up" className="card-item--box-main-two">
-                            <h1 data-aos="fade-right">Payment Detail</h1>
-                            <p data-aos="fade-right">Select payment method</p>
-                            <button data-aos="fade-right" type='submit'><img src={grpcicle} alt="grpcicle" />COD</button>
+                        <div className="card-item--box-main-two">
+                            <h1>Payment Detail</h1>
+                            <p>Select payment method</p>
+                            <button type='submit'><img src={grpcicle} alt="grpcicle" />COD</button>
                             <div className="last-prd-lst-prz-button">
-                                <button data-aos="fade-right" type='submit'>Checkout</button>
+                                <button type='submit'>Checkout</button>
                             </div>
                         </div>
                     </div>
@@ -134,20 +134,20 @@ export default function Cart() {
                 <footer>
                     <div className="footer-container">
                         <div className="footer-logo">
-                            <img data-aos="flip-up" src={logofooter} alt="logofooter" />
+                            <img src={logofooter} alt="logofooter" />
                         </div>
                         <div className="all-link-button-main">
                             <div className="all-link-footer-main">
-                            <Link data-aos="flip-left" to={"/Authenticate"}>Authenticate</Link>
-                            <Link data-aos="flip-left" to={"/Product"}>Products</Link>
-                            <Link data-aos="flip-left" to={"/Labresult"}>Lab Results</Link>
-                            <Link data-aos="flip-left" to={"/Contactus"}>Contact</Link>
-                            <Link data-aos="flip-left" to={"/Order"}>My Order</Link>
+                                <Link to={"/Authenticate"}>Authenticate</Link>
+                                <Link to={"/Product"}>Products</Link>
+                                <Link to={"/Labresult"}>Lab Results</Link>
+                                <Link to={"/Contactus"}>Contact</Link>
+                                <Link to={"/Order"}>My Order</Link>
                             </div>
                             <div className="input-footer-main">
-                                <input data-aos="fade-up-right" type="text" placeholder='Enter Email' />
+                                <input type="text" placeholder='Enter Email' />
                                 <a href="subscribe">
-                                    <button data-aos="fade-up-left" type='submit'>Subscribe</button>
+                                    <button type='submit'>Subscribe</button>
                                 </a>
                             </div>
                         </div>
