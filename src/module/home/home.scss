@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "Nunito Sans", sans-serif;
     font-family: "Playfair Display", serif;
-    cursor:url(https://cdn-icons-png.flaticon.com/512/3771/3771695.png) 4 12,auto;
+    cursor: url(https://cdn-icons-png.flaticon.com/512/3771/3771695.png) 4 12, auto;
 }
 
 h1,
@@ -561,6 +561,7 @@ p {
                         padding: 17.5px 0 16.67px 22px;
                         width: 500px;
                         color: #FFFFFF;
+                        font-family: "Nunito Sans", sans-serif;
 
                         @media (max-width:540px) {
                             width: 250px;

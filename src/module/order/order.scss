@@ -27,7 +27,7 @@ p {
         width: 100%;
         margin: 50px 0 0 0;
 
-       .header-cls-ord {
+        .header-cls-ord {
             max-width: 950px;
             margin: 0 auto;
             background: rgba(255, 255, 255, 0.1);
@@ -598,6 +598,7 @@ p {
                         border: none;
                         padding: 14px 212px 14px 24px;
                         color: #FFFFFF;
+                        font-family: "Nunito Sans", sans-serif;
 
                         @media (max-width:280px) {
                             padding: 14px 57px 14px 24px
