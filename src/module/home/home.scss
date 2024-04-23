@@ -1057,6 +1057,7 @@ p {
         overflow-y: hidden;
         margin: 80px 0 120px 0;
         display: flex;
+        justify-content: space-between;
         gap: 24px;
 
         .slider-card-one {
