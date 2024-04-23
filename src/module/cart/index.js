@@ -70,7 +70,9 @@ export default function Cart() {
 
                         <div className="card-item--box-main">
                             <div className="cart-item-box-title-main">
-                                <h3>Cart Items</h3>
+                                <div className="gerdiant-h1-div">
+                                    <span>Cart Items</span>
+                                </div>
                                 <div className="list-main-div-box-top-uppper-main">
                                     <p>Name</p>
                                     <span>Qty</span>

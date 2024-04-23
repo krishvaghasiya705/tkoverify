@@ -27,7 +27,7 @@ p {
         width: 100%;
         margin: 50px 0 0 0;
 
-        .header-cls-ord {
+       .header-cls-ord {
             max-width: 950px;
             margin: 0 auto;
             background: rgba(255, 255, 255, 0.1);
@@ -299,7 +299,6 @@ p {
                 background: linear-gradient(172.41deg, rgba(255, 255, 255, 0.1) 6.27%, rgba(255, 255, 255, 0) 94.53%);
                 border: 1px solid #FFFFFF;
                 border-radius: 14px;
-                width: calc(100% - 61px);
                 padding: 30px 30px 30px 30px;
                 margin: 0 0 40px 0;
 
@@ -322,6 +321,12 @@ p {
                     }
 
                     @media (max-width: 280px) {
+                        gap: 20px;
+                        align-items: baseline;
+                        flex-wrap: wrap;
+                    }
+
+                    @media (max-width: 764px) {
                         gap: 20px;
                         align-items: baseline;
                         flex-wrap: wrap;
@@ -360,7 +365,7 @@ p {
 
                     .ord-line-inner-scnd-box {
                         text-align: left;
-                        width: 440px;
+                        max-width: 440px;
 
                         h1 {
                             color: #959595;
@@ -384,7 +389,6 @@ p {
                 background: linear-gradient(172.41deg, rgba(255, 255, 255, 0.1) 6.27%, rgba(255, 255, 255, 0) 94.53%);
                 border: 1px solid #FFFFFF;
                 border-radius: 14px;
-                width: calc(100% - 61px);
                 padding: 30px 30px 30px 30px;
                 margin: 0;
 
@@ -423,6 +427,12 @@ p {
                         flex-wrap: wrap;
                     }
 
+                    @media (max-width: 764px) {
+                        gap: 20px;
+                        align-items: baseline;
+                        flex-wrap: wrap;
+                    }
+
                     .ord-line-inner-frst-box {
                         text-align: left;
 
@@ -444,7 +454,7 @@ p {
 
                     .ord-line-inner-scnd-box {
                         text-align: left;
-                        width: 440px;
+                        max-width: 440px;
 
                         h1 {
                             color: #959595;
@@ -598,7 +608,6 @@ p {
                         border: none;
                         padding: 14px 212px 14px 24px;
                         color: #FFFFFF;
-                        font-family: "Nunito Sans", sans-serif;
 
                         @media (max-width:280px) {
                             padding: 14px 57px 14px 24px
