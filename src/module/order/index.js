@@ -18,7 +18,7 @@ export default function Order() {
 
 
                 <div className="container-header">
-                    <header>
+                    <header className='header-cls-ord'>
                         <Link to={"/"}>
                             <div className="logo">
                                 <img src={logo} alt="logo" />
@@ -196,7 +196,7 @@ export default function Order() {
 
 
                 <footer>
-                    <div className="footer-container">
+                    <div className="footer-ord-container">
                         <div className="footer-logo">
                             <img src={logofooter} alt="logofooter" />
                         </div>

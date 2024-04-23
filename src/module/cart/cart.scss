@@ -78,6 +78,14 @@ p {
                     font-weight: 400;
                     line-height: 21.82px;
                     text-align: left;
+                    transition: .5s ease-in-out;
+
+                    &:hover {
+                        transition: .5s ease-in-out;
+                        background: linear-gradient(134.32deg, #A16CF4 21.02%, #FF7DA7 50.53%, #FFAB70 81.85%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
 
                     @media (max-width:540px) {
                         font-size: 10px;
