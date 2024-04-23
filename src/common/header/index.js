@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <div>
             <div className="container-header">
-                <header>
+                <header data-aos="fade-down">
                     <Link to={"/"}>
                         <div className="logo">
                             <img src={logo} alt="logo" />

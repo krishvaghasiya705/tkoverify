@@ -288,6 +288,7 @@ p {
         .order-nmb-section-main {
             margin: 0 0 163px 0;
             display: block;
+            overflow: hidden;
 
             @media (max-width:280px) {
                 display: flex;

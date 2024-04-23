@@ -72,19 +72,19 @@ export default function Authenticate() {
                     </div>
                 </div>
                 <div className="error-bakc-blure">
-                    <div className="error-back-box">
+                    <div data-aos="fade-up" className="error-back-box">
                         <Link to={"/"}>
-                            <div className="crose-div">
+                            <div data-aos="fade-left" className="crose-div">
                                 <img src={crose} alt="crose" />
                             </div>
                         </Link>
                         <div className="verification-title">
-                            <h1>Verification <span>Code</span></h1>
+                            <h1 data-aos="fade-right">Verification <span>Code</span></h1>
                         </div>
                         <div className="enter-input-main">
-                            <input type="text" placeholder='Enter Code' />
+                            <input data-aos="fade-right" type="text" placeholder='Enter Code' />
                             <a href="home">
-                                <button type='submit'>Submit</button>
+                                <button data-aos="fade-left" type='submit'>Submit</button>
                             </a>
                         </div>
                     </div>

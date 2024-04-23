@@ -30,12 +30,11 @@ export default function Home() {
     <div>
 
 
-
       <div className="ellepse-background-color-main">
         <div className='ellepse-black-height-box'>
           <div className="container-header-one">
             <div className="discover-line-main">
-              <h5>Discover, Authenticate, and Shop our<span>premium cannabis products</span></h5>
+              <h5 data-aos="fade-right">Discover, Authenticate, and Shop our<span>premium cannabis products</span></h5>
             </div>
           </div>
 
@@ -43,47 +42,46 @@ export default function Home() {
         <div className='ellepse-black-height-box2'>
           <div className="tko-extract-box-main">
             <div className="tko-conatiner-image">
-              <img src={red} alt="red" />
+              <img data-aos="flip-left" src={red} alt="red" />
             </div>
           </div>
           <div className="ring-main">
-            <img src={ring} alt="ring" />
+            <img data-aos="flip-left" src={ring} alt="ring" />
           </div>
         </div>
         <div className="top-ellepse-shadow">
-          <img src={Ellipse} alt="ellepse" />
+          <img data-aos="fade-right" src={Ellipse} alt="ellepse" />
         </div>
         <div className="moon-div-main">
           <div className="moon1">
-            <img src={moon} alt="moon" />
+            <img data-aos="fade-right" src={moon} alt="moon" />
           </div>
           <div className="moon2">
-            <img src={moon2} alt="moon" />
+            <img data-aos="fade-left" src={moon2} alt="moon" />
           </div>
           <div className="cloud-main">
             <div className="cloud1">
-              <img src={cloud1} alt="cloud1" />
+              <img data-aos="fade-right" src={cloud1} alt="cloud1" />
             </div>
             <div className="cloud2">
-              <img src={cloud2} alt="cloud2" />
+              <img data-aos="fade-left" src={cloud2} alt="cloud2" />
             </div>
           </div>
         </div>
       </div>
 
 
-
       <div className="authentic-product-main-background">
-        <div className="authentic-box-width">
+        <div data-aos="zoom-in" className="authentic-box-width">
           <div className="authentic-box">
             <div className="authentic-box-pera">
-              <h4>Authenticate</h4>
+              <h4 data-aos="fade-down-left">Authenticate</h4>
             </div>
             <div className="authentic-box-input">
               <div className="input-search-main">
-                <input type="text" placeholder='Enter Code' />
+                <input data-aos="flip-down" type="text" placeholder='Enter Code' />
                 <a href="submit">
-                  <button type='submit'>Submit</button>
+                  <button  data-aos="flip-up" type='submit'>Submit</button>
                 </a>
               </div>
             </div>
@@ -96,18 +94,18 @@ export default function Home() {
 
         <div className="conatiener-auth">
           <div className="shadow-two">
-            <img src={ellipse1} alt="ellipse1" />
+            <img data-aos="fade-left" src={ellipse1} alt="ellipse1" />
           </div>
           <div className="product-card-main">
             <div className="product-heading">
-              <h3>Our <span>Product</span></h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <h3 data-aos="fade-down">Our <span>Product</span></h3>
+              <p data-aos="fade-down">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
 
             <div className="product-card-div-flex">
 
               <div className="card-flex-main">
-                <div className="card-one">
+                <div className="card-one" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                   <div className="card-pera">
                     <img src={tripple} alt="tripple" />
                   </div>
@@ -115,7 +113,7 @@ export default function Home() {
                     <img src={productone} alt="productone" />
                   </div>
                 </div>
-                <div className="card-one">
+                <div className="card-one" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                   <div className="card-pera">
                     <img src={cartiga} alt="cartiga" />
                   </div>
@@ -123,7 +121,7 @@ export default function Home() {
                     <img src={producttwo} alt="producttwo" />
                   </div>
                 </div>
-                <div className="card-one">
+                <div className="card-one" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                   <div className="card-pera">
                     <img src={thca} alt="thca" />
                   </div>
@@ -135,9 +133,9 @@ export default function Home() {
 
 
               <div className="slider-button">
-                <button></button>
-                <p></p>
-                <p></p>
+                <button data-aos="flip-right"></button>
+                <p data-aos="flip-left"></p>
+                <p data-aos="flip-left"></p>
               </div>
 
             </div>
@@ -157,26 +155,26 @@ export default function Home() {
           <div className="our-feature-box-main">
             <div className="our-feature-pera-box">
               <div className="">
-                <h6>Our <span>Features</span></h6>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h6 data-aos="fade-up">Our <span>Features</span></h6>
+                <p data-aos="fade-down">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
               </div>
             </div>
             <div className="feature-card-main">
-              <div className="feature-card-main-inner">
+              <div data-aos="flip-left" className="feature-card-main-inner">
                 <div className="feature-card-circle-main">
                   <img style={{ width: "15.8px", height: "23.97px" }} src={flash} alt="flash" />
                 </div>
                 <h1>Experience</h1>
                 <p>Enjoy a vast variey of the hardest-hitting cannabis strains</p>
               </div>
-              <div className="feature-card-main-inner">
+              <div data-aos="flip-left" className="feature-card-main-inner">
                 <div className="feature-card-circle-main">
                   <img src={mdi} alt="mdi" />
                 </div>
                 <h1>Authenticate</h1>
                 <p>Ensure you're smoking the best with our new verification system</p>
               </div>
-              <div className="feature-card-main-inner">
+              <div data-aos="flip-left" className="feature-card-main-inner">
                 <div className="feature-card-circle-main">
                   <img src={verify} alt="verify" />
                 </div>
@@ -196,25 +194,25 @@ export default function Home() {
       <div className="about-us-section-main">
         <div className="continer-about-us-main">
           <div className="about-us-heading-main">
-            <h3><span>About</span> Us</h3>
-            <p>TKO has been focused on product integrity since day one, and we’ve risen above because of our commitment to quality. Highly potent premium THC featuring the industry’s best terpenes are standard in all of our products. Our clean cannabis oil is expertly crafted for consistency, always independently lab tested for full transparency.</p>
+            <h3  data-aos="fade-up"><span>About</span> Us</h3>
+            <p  data-aos="fade-down">TKO has been focused on product integrity since day one, and we’ve risen above because of our commitment to quality. Highly potent premium THC featuring the industry’s best terpenes are standard in all of our products. Our clean cannabis oil is expertly crafted for consistency, always independently lab tested for full transparency.</p>
           </div>
         </div>
         <div className="slider-main-div">
-          <div className="slider-card-one">
-            <img src={firstcr} alt="firstcr" />
+          <div data-aos="flip-right" className="slider-card-one">
+            <img data-aos="flip-left" src={firstcr} alt="firstcr" />
           </div>
-          <div className="slider-card-one">
-            <img src={secondcr} alt="secondcr" />
+          <div data-aos="flip-right" className="slider-card-one">
+            <img data-aos="flip-left" src={secondcr} alt="secondcr" />
           </div>
-          <div className="slider-card-one">
-            <img src={thirdcr} alt="thirdcr" />
+          <div data-aos="flip-right" className="slider-card-one">
+            <img data-aos="flip-left" src={thirdcr} alt="thirdcr" />
           </div>
-          <div className="slider-card-one">
-            <img src={fourthcr} alt="fourthcr" />
+          <div data-aos="flip-right" className="slider-card-one">
+            <img data-aos="flip-left" src={fourthcr} alt="fourthcr" />
           </div>
-          <div className="slider-card-one">
-            <img src={fifthcr} alt="fifthcr" />
+          <div data-aos="flip-right" className="slider-card-one">
+            <img data-aos="flip-left" src={fifthcr} alt="fifthcr" />
           </div>
         </div>
       </div>

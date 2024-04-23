@@ -12,20 +12,20 @@ export default function Footer() {
             <footer>
                 <div className="footer-container">
                     <div className="footer-logo">
-                        <img src={logofooter} alt="logofooter" />
+                        <img data-aos="flip-up" src={logofooter} alt="logofooter" />
                     </div>
                     <div className="all-link-button-main">
                         <div className="all-link-footer-main">
-                            <Link to={"/Authenticate"}>Authenticate</Link>
-                            <Link to={"/Product"}>Products</Link>
-                            <Link to={"/Labresult"}>Lab Results</Link>
-                            <Link to={"/Contactus"}>Contact</Link>
-                            <Link to={"/Order"}>My Order</Link>
+                            <Link data-aos="flip-left" to={"/Authenticate"}>Authenticate</Link>
+                            <Link data-aos="flip-left" to={"/Product"}>Products</Link>
+                            <Link data-aos="flip-left" to={"/Labresult"}>Lab Results</Link>
+                            <Link data-aos="flip-left" to={"/Contactus"}>Contact</Link>
+                            <Link data-aos="flip-left" to={"/Order"}>My Order</Link>
                         </div>
                         <div className="input-footer-main">
-                            <input type="text" placeholder='Enter Email' />
+                            <input data-aos="fade-up" type="text" placeholder='Enter Email' />
                             <a href="subscribe">
-                                <button type='submit'>Subscribe</button>
+                                <button data-aos="fade-left" type='submit'>Subscribe</button>
                             </a>
                         </div>
                     </div>

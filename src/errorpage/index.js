@@ -72,20 +72,20 @@ export default function Errorpage() {
                     </div>
                 </div>
                 <div className="error-bakc-blure">
-                    <div className="error-back-box">
+                    <div data-aos="fade-up" className="error-back-box">
                         <Link to={"/"}>
-                            <div className="crose-div">
+                            <div data-aos="fade-left" className="crose-div">
                                 <img src={crose} alt="crose" />
                             </div>
                         </Link>
                         <div className="sorrry-image">
-                            <img src={sorry} alt="sorry" />
+                            <img data-aos="fade-right" src={sorry} alt="sorry" />
                         </div>
                         <div className="sorry-title">
-                            <h1>Sorry 404 Error</h1>
+                            <h1 data-aos="flip-left">Sorry 404 Error</h1>
                         </div>
                         <div className="sorry-pera">
-                            <p>You are not old enough to view  the site...</p>
+                            <p data-aos="zoom-in">You are not old enough to view  the site...</p>
                         </div>
                     </div>
                 </div>
